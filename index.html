@@ -46,11 +46,11 @@
 
 <text><font color="white">|</text></font>
 
-      <button class="btn_home_header"><a href="ayuda.html">
+      <button title="Pulsa aqui para obtener ayuda de el soporte" class="btn_home_header"><a href="ayuda.html">
           <font color="white">Ayuda
         </a></font></button>
 
-      <button title="Pulsa aqui para obtener actualizaciones recientes de la pagina" class="btn_home_header"><a
+      <button title="Pulsa aqui para obtener información de la pagina" class="btn_home_header"><a
           href="info.html">
           <font color="white">Información
         </a></font></button>
@@ -136,7 +136,7 @@
 <font color="white">
       <input class="textarea_usuario" id="idusuario" type="textarea" value="Usuario" readonly>
 </font>
-      <button id='botonpersonal' onClick="document.getElementById('btnoriginal').click();">📷</button>
+      <button title="Toca aquí para cambiar tu foto! (al recargar la página desaparecerá)" id='botonpersonal' onClick="document.getElementById('btnoriginal').click();">📷</button>
 
       <input hidden id="btnoriginal" class="subir_imagen" type="file" accept="image/*"
         onchange="previewImage(event, '#fotodeperfil')">    
